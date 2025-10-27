@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// ❗ replace YOUR_GH_USERNAME and YOUR_REPO_NAME
+// If you deploy to GitHub Pages at https://<user>.github.io/<repo>/,
+// set GH_PAGES=1 when building and put your repo name below.
+const repoName = 'HealthyGameMainpage' // <— change if you deploy to another repo
+
 export default defineConfig({
   plugins: [react()],
-  base: '/HealthyGameMainpage/', // e.g. '/kids-healthy-games/'
+  base: process.env.GH_PAGES ? `/${repoName}/` : '/',
 })
-

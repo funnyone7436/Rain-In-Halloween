@@ -1,0 +1,37 @@
+{
+  "sky": {
+    "top": "#6c4ab6",
+    "mid": "#7b57c4",
+    "bottom": "#a07be6",
+    "exponent": 1.25
+  },
+  "env": {
+    "nearColor": "#43129d",
+    "farColor": "#632bc4",
+    "ringCount": 3,
+    "hillsPerRing": 28,
+    "baseRadius": 73,
+    "ringSpacing": 14,
+    "yBase": -1.6,
+    "fogDensity": 0.01
+  },
+  "coaster": {
+    "show": true,
+    "radius": 39.8,
+    "turns": 2,
+    "ampY": 4.15,
+    "ampR": 3.9000000000000004,
+    "freqY": 5,
+    "freqR": 2,
+    "railGap": 1.2,
+    "tubeRadius": 0.05,
+    "railColor": "#cb9d32",
+    "carColor": "#792759",
+    "carSpeed": 0.06,
+    "bank": 41,
+    "cars": 7
+  },
+  "orbit": {
+    "autoRotate": true
+  }
+}
