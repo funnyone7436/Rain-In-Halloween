@@ -1,0 +1,17 @@
+{
+  "skyTop": "#20aaee",
+  "skyTopAlpha": "1",
+  "skyBottom": "#f8f7f7",
+  "skyBottomAlpha": "1",
+  "groundColor": "#f9eaae",
+  "groundAlpha": "0.3",
+  "sunColor": "#fbf9b7",
+  "hemiEnabled": false,
+  "dirEnabled": true,
+  "dirIntensity": 2.5,
+  "fogType": "exp2",
+  "fogNear": 2551,
+  "fogFar": 4000,
+  "fogDensity": 0.02,
+  "gradientExponent": 0.52
+}
