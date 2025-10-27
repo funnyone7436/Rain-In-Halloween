@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react'
 const repoName = 'HealthyGameMainpage' // <— change if you deploy to another repo
 
 export default defineConfig({
+  base: '/Rain-In-Halloween/',
   plugins: [react()],
-  base: process.env.GH_PAGES ? `/${repoName}/` : '/',
 })
+
