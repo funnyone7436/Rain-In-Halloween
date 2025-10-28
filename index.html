@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Purple Mountains (R3F)</title>
+    <style>
+	html, body, #root {
+	  height: 100%;
+	  margin: 0;
+	}
+	body {
+	  background: #120a1b;
+	}
+
+	/* 👇 Bottom center */
+	.brand {
+	  position: fixed;
+	  bottom: 12px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  font: 800 16px/1.2 system-ui, sans-serif;
+	  color: #fff;
+	  padding: 8px 16px;
+	  border-radius: 10px;
+	  background: linear-gradient(135deg, rgba(0,0,0,0.55), rgba(0,0,0,0.25));
+	  box-shadow: 0 6px 18px rgba(0,0,0,.28);
+	  z-index: 10;
+	  user-select: none;
+	  pointer-events: none;
+	  letter-spacing: .4px;
+	  text-shadow: 0 2px 8px rgba(0,0,0,.5);
+	}
+
+	/* 👇 Bottom right */
+	#github-note {
+	  position: fixed;
+	  bottom: 12px;
+	  right: 12px;
+	  font: 400 12px system-ui, sans-serif;
+	  color: #bbb;
+	  padding: 6px 10px;
+	  border-radius: 6px;
+	  background: rgba(0, 0, 0, 0.25);
+	  line-height: 1.4;
+	  z-index: 9;
+	  text-align: right;
+	}
+	#github-note a {
+	  color: #6cf;
+	  text-decoration: none;
+	}
+	#github-note a:hover {
+	  text-decoration: underline;
+	}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="brand">Jump For Heavy Halloween Rain</div>
+	<div id="github-note">
+	  🔐 No worries, just fun!<br>
+	  🔍 <a href="https://github.com/funnyone7436/Rain-In-Halloween" target="_blank">View the full source on GitHub</a>
+	</div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
